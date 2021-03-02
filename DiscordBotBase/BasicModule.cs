@@ -86,7 +86,7 @@ namespace DiscordBotBase
             }
 
             await this.Context.Message.Author.SendMessageAsync(null, false, embed.Build());
-            await this.Context.Channel.SendMessageAsync($"{this.Context.Message.Author.Mention} maybe if you check yout DM's you'll see a help page :rolling_eyes:.");
+            await this.Context.Channel.SendMessageAsync($"{this.Context.Message.Author.Mention} maybe if you check your DM's you'll see a help page :rolling_eyes:.");
         }
 
         [Command("help")]
